@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'Axnix - Automate workflows boost conversions',
-  description: 'Axnix makes it simple to run email campaigns, trigger workflows, and optimize conversions.',
+  title: 'Sketchbook - Automated Invoice Processing in RAM',
+  description: 'Upload invoices or sync Google Drive. Sketchbook extracts data entirely in RAM and exports Tally-ready Excel sheets automatically to your drive.',
 };
 
 export default function RootLayout({

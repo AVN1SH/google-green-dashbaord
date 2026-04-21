@@ -14,7 +14,7 @@ export function PricingSection() {
             Flexible pricing plans <br/> choose your best.
           </h2>
           <p className="text-lg text-gray-600">
-            Select the plan that fits your business needs and scale effortlessly with Axnix.
+            Select the plan that fits your business needs and scale effortlessly with Sketchbook.
           </p>
         </Reveal>
 
@@ -33,8 +33,8 @@ export function PricingSection() {
               </button>
               <ul className="space-y-4 text-left text-sm text-gray-600">
                 <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Limited access to core features.</li>
-                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Basic analytics and reporting.</li>
-                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> No additional add-ons.</li>
+                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Basic Excel formatting.</li>
+                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Manual uploads only.</li>
                 <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Web, desktop & mobile apps.</li>
               </ul>
             </div>
@@ -53,10 +53,10 @@ export function PricingSection() {
                 <span className="relative z-10">Get started now</span>
               </button>
               <ul className="space-y-4 text-left text-sm text-gray-300">
-                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-white" /> Limited access to core features.</li>
-                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-white" /> Basic analytics and reporting.</li>
-                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-white" /> No additional add-ons.</li>
-                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-white" /> Web, desktop & mobile apps.</li>
+                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-white" /> Full access to all features.</li>
+                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-white" /> Advanced Tally-ready exports.</li>
+                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-white" /> Unlimited Google Drive sync.</li>
+                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-white" /> Priority customer support.</li>
               </ul>
             </div>
           </Reveal>
@@ -64,20 +64,20 @@ export function PricingSection() {
           {/* Card 3 (Starter again based on UI image) */}
           <Reveal delay={300} y={40}>
             <div className="rounded-[2rem] bg-white p-10 shadow-sm border border-gray-100 flex flex-col text-center transition-all hover:shadow-md">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">Starter</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Enterprise</h3>
               <div className="flex items-end justify-center gap-1 mb-2">
-                <span className="text-5xl font-bold text-gray-900">$99</span>
+                <span className="text-5xl font-bold text-gray-900">$199</span>
                 <span className="text-gray-500 mb-1">/month</span>
               </div>
               <p className="text-sm text-gray-500 mb-8">Billed monthly</p>
               <button className="w-full rounded-full border border-gray-200 py-3 text-sm font-medium text-gray-900 hover:bg-gray-50 transition-colors mb-8">
-                Get started now
+                Contact sales
               </button>
               <ul className="space-y-4 text-left text-sm text-gray-600">
-                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Limited access to core features.</li>
-                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Basic analytics and reporting.</li>
-                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> No additional add-ons.</li>
-                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Web, desktop & mobile apps.</li>
+                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Dedicated account manager.</li>
+                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Custom integrations.</li>
+                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> Custom automation intervals.</li>
+                <li className="flex items-center gap-3"><Check className="h-4 w-4 text-gray-900" /> SLA guarantees.</li>
               </ul>
             </div>
           </Reveal>

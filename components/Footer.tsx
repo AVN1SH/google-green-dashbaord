@@ -12,13 +12,17 @@ export function Footer() {
               <div className="flex items-center gap-2 mb-6">
                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-brand">
                   <svg viewBox="0 0 24 24" fill="none" className="h-5 w-5 text-gray-900" stroke="currentColor" strokeWidth="2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
                   </svg>
                 </div>
-                <span className="text-xl font-bold tracking-tight text-gray-900">Axnix</span>
+                <span className="text-xl font-bold tracking-tight text-gray-900">Sketchbook</span>
               </div>
               <p className="text-gray-500 text-sm leading-relaxed pr-8">
-                Set smart automation rules monitor performance and receive real time insights to scale your marketing with confidence.
+                Set Drive automation intervals to run entirely in RAM, generating Tally-ready sheets securely to scale your accounting with confidence.
               </p>
             </div>
 
@@ -29,7 +33,7 @@ export function Footer() {
                   <li><Link href="#" className="text-gray-500 hover:text-gray-900 transition-colors">Home</Link></li>
                   <li><Link href="#" className="text-gray-500 hover:text-gray-900 transition-colors">Features</Link></li>
                   <li><Link href="#" className="text-gray-500 hover:text-gray-900 transition-colors">Pricing</Link></li>
-                  <li><Link href="#" className="text-gray-500 hover:text-gray-900 transition-colors">Blogs</Link></li>
+                  <li><Link href="#" className="text-gray-500 hover:text-gray-900 transition-colors">How it works</Link></li>
                 </ul>
               </div>
               <div>
@@ -44,7 +48,7 @@ export function Footer() {
             <div className="md:col-span-12 lg:col-span-4">
               <h4 className="font-semibold text-gray-900 mb-6">Subscribe to our newsletter</h4>
               <p className="text-sm text-gray-500 mb-6">
-                Stay updated with the latest marketing insights automation tips and product updates.
+                Stay updated with the latest accounting automation tips and product updates.
               </p>
               <form className="flex gap-2 max-w-md">
                 <input 
@@ -63,7 +67,7 @@ export function Footer() {
           
           <div className="text-center border-t border-gray-200 pt-8 mt-8">
             <p className="text-sm text-gray-500">
-              Copyright ©Pixcut Studio LLC
+              Copyright ©Sketchbook LLC
             </p>
           </div>
         </Reveal>

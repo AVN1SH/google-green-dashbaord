@@ -3,39 +3,39 @@ import { Reveal } from "./Reveal";
 
 const testimonials = [
   {
-    quote: "Axnix streamlined our marketing workflows made campaigns effortless and increased conversions within weeks.",
+    quote: "Sketchbook streamlined our accounting workflows, made invoice processing effortless and reduced manual entry within weeks.",
     name: "Emma",
-    role: "Marketing manager",
+    role: "Finance manager",
     image: "https://picsum.photos/seed/t1/48/48"
   },
   {
-    quote: "Axnix has completely transformed our marketing workflow. Its intuitive automation tools save countless hours each week, boost team productivity, and ensure every campaign runs smoothly, efficiently, and delivers measurable results.",
+    quote: "Sketchbook has completely transformed our billing workflow. Its automated Drive sync runs efficiently, ensuring every invoice is Tally-ready instantly.",
     name: "Jane doe",
-    role: "Saas founder",
+    role: "Accounting lead",
     image: "https://picsum.photos/seed/t2/48/48"
   },
   {
-    quote: "Real-time analytics from Axnix empowered our team to make smarter marketing decisions instantly, optimize campaigns effectively, and identify growth opportunities faster than ever before.",
+    quote: "RAM-based processing from Sketchbook empowered our team to secure client data instantly while optimizing the entire pipeline safely.",
     name: "Emily clark",
-    role: "Growth specialist",
+    role: "CPA Partner",
     image: "https://picsum.photos/seed/t3/48/48"
   },
   {
-    quote: "From lead capture to final conversion, Axnix seamlessly streamlined our entire marketing process, improving efficiency, enhancing customer engagement, boosting campaign performance, and helping our team achieve consistent, measurable business growth faster.",
+    quote: "From invoice upload to final Tally export, Sketchbook seamlessly streamlined our entire data entry process without compromising security.",
     name: "Michael lee",
-    role: "Digital marketing lead",
+    role: "Tax specialist",
     image: "https://picsum.photos/seed/t4/48/48"
   },
   {
-    quote: "Axnix automation reduced manual work and helped our team focus on strategy.",
+    quote: "Sketchbook's agent automation reduced manual work entirely and helped our financial team focus on strategy rather than spreadsheets.",
     name: "Daniel carter",
-    role: "Growth director",
+    role: "Director of Finance",
     image: "https://picsum.photos/seed/t5/48/48"
   },
   {
-    quote: "Axnix gave us complete control over our marketing automation. Campaign execution is smoother, reporting is clearer, and our overall conversion rates have improved dramatically.",
+    quote: "Sketchbook gave us complete control over our accounts. Syncing to Drive is smoother, and our overall compilation rates have improved dramatically.",
     name: "Sophia martinez",
-    role: "Head of marketing",
+    role: "Head of Accounting",
     image: "https://picsum.photos/seed/t6/48/48"
   }
 ];
@@ -50,10 +50,10 @@ export function TestimonialSection() {
             <span className="text-sm font-medium text-gray-800">Testimonial</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 mb-6">
-            Trusted by professionals <br/> using axnix
+            Trusted by professionals <br/> using Sketchbook
           </h2>
           <p className="text-lg text-gray-600">
-            Marketing teams worldwide rely on Axnix to automate campaigns, track performance, and boost conversions effortlessly.
+            Accounting teams worldwide rely on Sketchbook to automate invoices, track performance, and generate Tally sheets effortlessly.
           </p>
         </Reveal>
 

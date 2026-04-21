@@ -1,11 +1,12 @@
 import { Reveal } from "./Reveal";
 
 const faqs = [
-  { question: "How long does a typical project take?", answer: "A typical project timeline depends on the complexity and scope, but most standard implementations are completed within 4 to 6 weeks. We prioritize efficiency without compromising quality." },
-  { question: "What if I don't know exactly what I need?", answer: "That's completely fine! Our team of experts will consult with you to understand your goals and constraints, then recommend the perfect suite of automation tools tailored specifically to your business." },
-  { question: "Can I request just one service?", answer: "Yes, our modular approach allows you to select only the services you need. You can always add more capabilities as your business grows and your requirements evolve." },
-  { question: "How do payments work?", answer: "We offer flexible payment terms. Typically, we require a partial deposit upfront, with the remainder billed at specific project milestones or upon final delivery." },
-  { question: "What if I need changes after a project ends?", answer: "We provide post-launch support and maintenance packages. We're always here to partner with you for ongoing enhancements, scaling, and any necessary adjustments." }
+  { question: "Can Sketchbook extract data from password-protected bank statements?", answer: "Yes. If our system detects a locked PDF (like an encrypted bank statement), it securely prompts you for the password. The file is temporarily decrypted directly in RAM, parsed, and immediately cleared, maintaining absolute security throughout the process." },
+  { question: "Does Sketchbook store my invoice data?", answer: "No. Sketchbook operates strictly in RAM. We process your documents and output the Excel sheet directly to your designated Google Drive folder. Your data is wiped from memory immediately after processing and never persisted on our servers." },
+  { question: "How does the Google Drive automation work?", answer: "Simply connect your Google Drive and select a source folder. Then, set a sync frequency (e.g., every 1 hour, or 12 hours). Our agent runs in the background, extracts data from new invoices, and saves a Tally-ready Excel file back into your drive." },
+  { question: "Is the generated Excel file ready for Tally?", answer: "Absolutely. The output Excel sheet is structured according to Tally's exact import standards, allowing you to directly import the data without any manual cleanup or re-formatting." },
+  { question: "Can I upload invoices manually instead of using Google Drive?", answer: "Yes! You can use our secure manual form to upload invoices directly from your computer if you prefer not to configure the automated Drive sync." },
+  { question: "How do payments work?", answer: "We offer flexible monthly billing based on your invoice processing volume. You can upgrade, downgrade, or cancel your plan at any time." }
 ];
 
 export function FAQSection() {
@@ -39,7 +40,7 @@ export function FAQSection() {
                         </svg>
                       </span>
                     </summary>
-                    <div className="pb-6 text-gray-600 transition-all duration-300">
+                    <div className="pb-6 text-gray-600 transition-all duration-300 leading-relaxed">
                       {faq.answer}
                     </div>
                   </details>
